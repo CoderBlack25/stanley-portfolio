@@ -63,7 +63,7 @@ export default function Navbar() {
         {/* Logo */}
         <Link
           href="/"
-          className="text-3xl tracking-tight text-night sm:text-2xl font-body"
+          className="text-2xl text-night sm:text-2xl font-body"
           onClick={() => setIsMenuOpen(false)}
         >
           S-C
@@ -75,7 +75,7 @@ export default function Navbar() {
             <Link
               key={link.href}
               href={link.href}
-              className="text-charcoal transition-colors hover:text-gray-500 font-switzer-medium"
+              className="text-charcoal transition-colors hover:text-gray-500 font-switzer-medium text-sm"
             >
               {link.label}
             </Link>
@@ -83,7 +83,7 @@ export default function Navbar() {
 
           <Link
             href="/contact"
-            className="group flex items-center gap-1 text-charcoal transition-colors hover:text-gray-500 font-switzer-medium"
+            className="group flex items-center gap-1 text-charcoal transition-colors hover:text-gray-500 font-switzer-medium text-sm"
           >
             Contact Me
             <FiArrowUpRight

@@ -178,3 +178,7 @@
     @apply font-sans;
   }
 }
+
+/* html {
+  outline: 1px solid red;
+} */
